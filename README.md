@@ -29,8 +29,9 @@
   "qualifiedResult": "適格",
   "businessType": "法人",
   "registrationNumber": "T1234567890123",
-  "transactionDate": "2020-05-10",
+  "transactionDate": "2026-05-10",
   "reducedTaxRate": "なし",
+  "currency": "JPY",
   "items": [
     { "name": "クラウドサービス利用料", "unitPrice": 30000, "quantity": 1, "amount": 30000 }
   ],
@@ -66,3 +67,4 @@ invoice-demo/
 
 - 検索窓やその他メニューは要件どおり省いています。
 - データはすべてデモ用の架空のものです。
+- `currency` フィールド（`JPY` / `USD`）で通貨を切り替えます。省略時は `JPY`。`USD` の請求書（`inv-0008`）はビューワーが英語・ドル表記で描画されます。

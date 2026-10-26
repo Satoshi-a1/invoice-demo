@@ -5,7 +5,7 @@
   "qualifiedResult": "適格",
   "businessType": "法人",
   "registrationNumber": "T1234567890123",
-  "transactionDate": "2020-05-10",
+  "transactionDate": "2026-05-10",
   "reducedTaxRate": "なし",
   "items": [
     { "name": "クラウドサービス利用料", "unitPrice": 30000, "quantity": 1, "amount": 30000 },

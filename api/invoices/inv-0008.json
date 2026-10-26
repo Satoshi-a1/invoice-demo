@@ -1,17 +1,18 @@
 {
   "id": "inv-0008",
   "registeredAt": "2020-02-20T00:00:00",
-  "partner": "ネクスト広告株式会社",
-  "qualifiedResult": "適格",
-  "businessType": "法人",
-  "registrationNumber": "T7890123456789",
-  "transactionDate": "2020-02-14",
+  "partner": "Global Cloud Inc.",
+  "qualifiedResult": "対象外",
+  "businessType": "海外法人",
+  "registrationNumber": "-",
+  "transactionDate": "2026-02-14",
   "reducedTaxRate": "なし",
+  "currency": "USD",
   "items": [
-    { "name": "Web広告運用代行", "unitPrice": 120000, "quantity": 1, "amount": 120000 },
-    { "name": "バナー制作", "unitPrice": 20000, "quantity": 3, "amount": 60000 }
+    { "name": "Cloud Subscription (Annual)", "unitPrice": 1200, "quantity": 1, "amount": 1200 },
+    { "name": "Onboarding Support", "unitPrice": 300, "quantity": 2, "amount": 600 }
   ],
-  "subtotal": 180000,
-  "tax": 18000,
-  "total": 198000
+  "subtotal": 1800,
+  "tax": 180,
+  "total": 1980
 }

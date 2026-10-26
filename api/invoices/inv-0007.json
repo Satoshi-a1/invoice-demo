@@ -5,7 +5,7 @@
   "qualifiedResult": "適格",
   "businessType": "法人",
   "registrationNumber": "T6789012345678",
-  "transactionDate": "2020-02-28",
+  "transactionDate": "2026-02-28",
   "reducedTaxRate": "あり",
   "items": [
     { "name": "会議用弁当", "unitPrice": 1200, "quantity": 30, "amount": 36000 },

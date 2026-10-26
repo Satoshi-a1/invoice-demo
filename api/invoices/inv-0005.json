@@ -5,7 +5,7 @@
   "qualifiedResult": "適格",
   "businessType": "法人",
   "registrationNumber": "T4567890123456",
-  "transactionDate": "2020-05-03",
+  "transactionDate": "2026-05-03",
   "reducedTaxRate": "なし",
   "items": [
     { "name": "配送料(都内)", "unitPrice": 800, "quantity": 40, "amount": 32000 },
