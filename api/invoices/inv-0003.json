@@ -1,0 +1,17 @@
+{
+  "id": "inv-0003",
+  "registeredAt": "2020-05-11T00:00:00",
+  "partner": "山田商事株式会社",
+  "qualifiedResult": "適格",
+  "businessType": "法人",
+  "registrationNumber": "T3456789012345",
+  "transactionDate": "2020-05-01",
+  "reducedTaxRate": "あり",
+  "items": [
+    { "name": "事務用品セット", "unitPrice": 4500, "quantity": 8, "amount": 36000 },
+    { "name": "コピー用紙(箱)", "unitPrice": 3200, "quantity": 5, "amount": 16000 }
+  ],
+  "subtotal": 52000,
+  "tax": 5200,
+  "total": 57200
+}

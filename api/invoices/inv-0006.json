@@ -1,0 +1,17 @@
+{
+  "id": "inv-0006",
+  "registeredAt": "2020-04-15T00:00:00",
+  "partner": "東京オフィス家具",
+  "qualifiedResult": "適格",
+  "businessType": "法人",
+  "registrationNumber": "T5678901234567",
+  "transactionDate": "2020-04-08",
+  "reducedTaxRate": "なし",
+  "items": [
+    { "name": "オフィスチェア", "unitPrice": 28000, "quantity": 4, "amount": 112000 },
+    { "name": "会議用テーブル", "unitPrice": 45000, "quantity": 1, "amount": 45000 }
+  ],
+  "subtotal": 157000,
+  "tax": 15700,
+  "total": 172700
+}

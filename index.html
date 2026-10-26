@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>請求書管理デモ</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header class="app-header">
+    <div class="brand">
+      <span class="brand-name">Invoice<span class="brand-accent">One</span></span>
+      <span class="brand-sub">請求書管理デモ</span>
+    </div>
+    <nav class="app-nav">
+      <span class="nav-item is-active">請求書管理</span>
+    </nav>
+  </header>
+
+  <main class="layout">
+    <!-- 左: 請求書一覧 -->
+    <section class="col col-list" aria-label="請求書一覧">
+      <div class="col-head">
+        <h2>請求書一覧</h2>
+        <span class="count" id="list-count">-</span>
+      </div>
+      <div class="list-header">
+        <span class="th th-date">登録日</span>
+        <span class="th th-partner">取引先</span>
+        <span class="th th-amount">金額</span>
+      </div>
+      <ul class="invoice-list" id="invoice-list"></ul>
+    </section>
+
+    <!-- 中央: 請求書情報 -->
+    <section class="col col-detail" aria-label="請求書情報">
+      <div class="col-head">
+        <h2>請求書情報</h2>
+        <span class="registered" id="detail-registered"></span>
+      </div>
+      <div class="detail-body" id="detail-body">
+        <p class="placeholder">左の一覧から請求書を選択してください。</p>
+      </div>
+    </section>
+
+    <!-- 右: 請求書ビューワー -->
+    <section class="col col-viewer" aria-label="請求書ビューワー">
+      <div class="col-head">
+        <h2>請求書ビューワー</h2>
+      </div>
+      <div class="viewer-stage" id="viewer-stage">
+        <p class="placeholder">プレビューはここに表示されます。</p>
+      </div>
+    </section>
+  </main>
+
+  <script src="js/app.js"></script>
+</body>
+</html>

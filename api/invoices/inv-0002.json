@@ -1,0 +1,17 @@
+{
+  "id": "inv-0002",
+  "registeredAt": "2020-05-14T00:00:00",
+  "partner": "青空デザイン合同会社",
+  "qualifiedResult": "適格",
+  "businessType": "法人",
+  "registrationNumber": "T2345678901234",
+  "transactionDate": "2020-05-09",
+  "reducedTaxRate": "なし",
+  "items": [
+    { "name": "ロゴ制作", "unitPrice": 80000, "quantity": 1, "amount": 80000 },
+    { "name": "名刺デザイン", "unitPrice": 12000, "quantity": 2, "amount": 24000 }
+  ],
+  "subtotal": 104000,
+  "tax": 10400,
+  "total": 114400
+}

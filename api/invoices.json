@@ -1,0 +1,13 @@
+{
+  "count": 8,
+  "invoices": [
+    { "id": "inv-0001", "registeredAt": "2020-05-15T00:00:00", "partner": "三三システム株式会社", "qualifiedResult": "適格", "total": 52800 },
+    { "id": "inv-0002", "registeredAt": "2020-05-14T00:00:00", "partner": "青空デザイン合同会社", "qualifiedResult": "適格", "total": 114400 },
+    { "id": "inv-0003", "registeredAt": "2020-05-11T00:00:00", "partner": "山田商事株式会社", "qualifiedResult": "適格", "total": 57200 },
+    { "id": "inv-0004", "registeredAt": "2020-05-11T00:00:00", "partner": "フリーランス佐藤", "qualifiedResult": "非適格", "total": 82500 },
+    { "id": "inv-0005", "registeredAt": "2020-05-11T00:00:00", "partner": "みどり物流株式会社", "qualifiedResult": "適格", "total": 62700 },
+    { "id": "inv-0006", "registeredAt": "2020-04-15T00:00:00", "partner": "東京オフィス家具", "qualifiedResult": "適格", "total": 172700 },
+    { "id": "inv-0007", "registeredAt": "2020-03-03T00:00:00", "partner": "はなまるケータリング", "qualifiedResult": "適格", "total": 47520 },
+    { "id": "inv-0008", "registeredAt": "2020-02-20T00:00:00", "partner": "ネクスト広告株式会社", "qualifiedResult": "適格", "total": 198000 }
+  ]
+}

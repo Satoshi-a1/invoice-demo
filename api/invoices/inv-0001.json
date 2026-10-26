@@ -1,0 +1,17 @@
+{
+  "id": "inv-0001",
+  "registeredAt": "2020-05-15T00:00:00",
+  "partner": "三三システム株式会社",
+  "qualifiedResult": "適格",
+  "businessType": "法人",
+  "registrationNumber": "T1234567890123",
+  "transactionDate": "2020-05-10",
+  "reducedTaxRate": "なし",
+  "items": [
+    { "name": "クラウドサービス利用料", "unitPrice": 30000, "quantity": 1, "amount": 30000 },
+    { "name": "初期設定サポート", "unitPrice": 18000, "quantity": 1, "amount": 18000 }
+  ],
+  "subtotal": 48000,
+  "tax": 4800,
+  "total": 52800
+}

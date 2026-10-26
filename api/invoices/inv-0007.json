@@ -1,0 +1,17 @@
+{
+  "id": "inv-0007",
+  "registeredAt": "2020-03-03T00:00:00",
+  "partner": "はなまるケータリング",
+  "qualifiedResult": "適格",
+  "businessType": "法人",
+  "registrationNumber": "T6789012345678",
+  "transactionDate": "2020-02-28",
+  "reducedTaxRate": "あり",
+  "items": [
+    { "name": "会議用弁当", "unitPrice": 1200, "quantity": 30, "amount": 36000 },
+    { "name": "飲料ペットボトル", "unitPrice": 150, "quantity": 48, "amount": 7200 }
+  ],
+  "subtotal": 43200,
+  "tax": 4320,
+  "total": 47520
+}

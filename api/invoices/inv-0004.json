@@ -1,0 +1,16 @@
+{
+  "id": "inv-0004",
+  "registeredAt": "2020-05-11T00:00:00",
+  "partner": "フリーランス佐藤",
+  "qualifiedResult": "非適格",
+  "businessType": "個人",
+  "registrationNumber": "-",
+  "transactionDate": "2020-05-02",
+  "reducedTaxRate": "なし",
+  "items": [
+    { "name": "記事執筆(5本)", "unitPrice": 15000, "quantity": 5, "amount": 75000 }
+  ],
+  "subtotal": 75000,
+  "tax": 7500,
+  "total": 82500
+}
