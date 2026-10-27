@@ -6,7 +6,8 @@
   var API_BASE = "api";
 
   // 請求書の宛先（受領側の自社名）。取引先（発行元）とは別で、全請求書で固定。
-  var RECIPIENT = "株式会社ワークアクシス";
+  // 日本語請求書は ja、英語請求書は en を使用。
+  var RECIPIENT = { ja: "株式会社ワークアクシス", en: "WorkAxis Inc." };
 
   var listEl = document.getElementById("invoice-list");
   var countEl = document.getElementById("list-count");
@@ -128,7 +129,7 @@
       '<div class="paper">' +
         '<div class="seal"></div>' +
         "<h1>請求書</h1>" +
-        '<div><span class="to">' + esc(RECIPIENT) + " 御中</span></div>" +
+        '<div><span class="to">' + esc(RECIPIENT.ja) + " 御中</span></div>" +
         '<div class="meta">発行日: ' + esc(formatDate(inv.transactionDate)) + "<br>No. " + esc(inv.id) + "</div>" +
         '<div class="total-line">合計 <span class="yen">' + esc(formatMoney(inv.total, "JPY")) + "</span></div>" +
         '<table class="items">' +
@@ -157,7 +158,7 @@
       '<div class="paper">' +
         '<div class="seal"></div>' +
         '<h1 class="en">INVOICE</h1>' +
-        '<div><span class="to">Bill To: ' + esc(RECIPIENT) + "</span></div>" +
+        '<div><span class="to">Bill To: ' + esc(RECIPIENT.en) + "</span></div>" +
         '<div class="meta">Issue Date: ' + esc(formatDate(inv.transactionDate)) + "<br>No. " + esc(inv.id) + "</div>" +
         '<div class="total-line">Total <span class="yen">' + esc(formatMoney(inv.total, "USD")) + "</span></div>" +
         '<table class="items">' +
