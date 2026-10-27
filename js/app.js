@@ -5,6 +5,9 @@
   // 静的JSON API のベースパス（相対パスなので GitHub Pages のサブパスでも動作）
   var API_BASE = "api";
 
+  // 請求書の宛先（受領側の自社名）。取引先（発行元）とは別で、全請求書で固定。
+  var RECIPIENT = "株式会社ワークアクシス";
+
   var listEl = document.getElementById("invoice-list");
   var countEl = document.getElementById("list-count");
   var detailBody = document.getElementById("detail-body");
@@ -125,7 +128,7 @@
       '<div class="paper">' +
         '<div class="seal"></div>' +
         "<h1>請求書</h1>" +
-        '<div><span class="to">' + esc(inv.partner) + " 御中</span></div>" +
+        '<div><span class="to">' + esc(RECIPIENT) + " 御中</span></div>" +
         '<div class="meta">発行日: ' + esc(formatDate(inv.transactionDate)) + "<br>No. " + esc(inv.id) + "</div>" +
         '<div class="total-line">合計 <span class="yen">' + esc(formatMoney(inv.total, "JPY")) + "</span></div>" +
         '<table class="items">' +
@@ -154,7 +157,7 @@
       '<div class="paper">' +
         '<div class="seal"></div>' +
         '<h1 class="en">INVOICE</h1>' +
-        '<div><span class="to">Bill To: ' + esc(inv.partner) + "</span></div>" +
+        '<div><span class="to">Bill To: ' + esc(RECIPIENT) + "</span></div>" +
         '<div class="meta">Issue Date: ' + esc(formatDate(inv.transactionDate)) + "<br>No. " + esc(inv.id) + "</div>" +
         '<div class="total-line">Total <span class="yen">' + esc(formatMoney(inv.total, "USD")) + "</span></div>" +
         '<table class="items">' +
